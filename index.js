@@ -40,11 +40,12 @@ switch (buttonInnerHTML) {
   case "l":
   var kick = new Audio('sounds/kick-bass.mp3');
   kick.play();
-
     break;
 
   default: console.log(buttonInnerHTML);
 }
+ 
+  
   
 });
 }
