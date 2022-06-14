@@ -23,7 +23,7 @@ function soundAdd (key){
     kick.play();
       break;
 
-    case "a":
+    case "k":
     var crash = new Audio("sounds/crash.mp3");
     crash.play();
       break;
@@ -38,7 +38,7 @@ function soundAdd (key){
     tom1.play();
     break;
 
-    case "j":
+    case "a":
     var tom2 = new Audio("sounds/tom-2.mp3");
     tom2.play();
     break;
