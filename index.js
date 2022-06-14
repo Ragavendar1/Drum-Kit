@@ -4,7 +4,7 @@ var numOfDrum = document.querySelectorAll(".drum").length;
    document.querySelectorAll(".drum")[i].addEventListener("click", numOfDrumButton);
 
    function numOfDrumButton (){
-     var buttonSound =this.innerHTML
+     var buttonSound =this.innerHTML;
      soundAdd(buttonSound);
      animarionAdd(buttonSound);
    }
