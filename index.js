@@ -29,6 +29,7 @@ function soundAdd (key){
       break;
 
     case "s":
+    alert:"Hello";
     var snare = new Audio("sounds/snare.mp3");
     snare.play();
     break;
