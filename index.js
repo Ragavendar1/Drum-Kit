@@ -7,7 +7,7 @@ var numOfDrum = document.querySelectorAll(".drum").length;
      var buttonSound =this.innerHTML;
      soundAdd(buttonSound);
      animationAdd(buttonSound);
-   }
+    
  }
 document.addEventListener("keypress",keyPress);
 function keyPress(event){
